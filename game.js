@@ -9,7 +9,7 @@ var level = 0;
 
 
 
-$(document).on(function () {
+$("#start").on(function () {
     if (!started) {
         $("#level-title").text("Level " + level);
         nextSequence();
